@@ -1,9 +1,7 @@
 const hpw = 5.08
 const height = 128.5
 const hps = [1, 1.5, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 21, 22, 28, 42]
-const names = hps.map((hp, i) => {
-  return `${i.toString().padStart(2, '0')}-${hp}HP-panel`
-})
+const names = hps.map((hp, i) => `${i.toString().padStart(2, '0')}-${hp}HP-panel`)
 
 hps.forEach((hp, i) => {
   const tolerance = Math.min(0.3, Math.pow(i, 2) / 10)
