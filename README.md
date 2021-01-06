@@ -1,4 +1,4 @@
-# Eurorack svg panels
+# Eurorack SVG panels
 
 ## Usage
 
