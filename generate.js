@@ -1,13 +1,16 @@
 const hpw = 5.08
 const height = 128.5
 const hps = [1, 1.5, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 21, 22, 28, 42]
+const names = hps.map((hp, i) => {
+  return `${i.toString().padStart(2, '0')}-${hp}HP-panel`
+})
 
 hps.forEach((hp, i) => {
   const tolerance = Math.min(0.3, Math.pow(i, 2) / 10)
   const width = Math.floor(((hp * hpw) - tolerance) * 10) / 10
   const holes = Math.max(1, Math.round((hp + 10) / 12))
 
-  Deno.writeTextFile(`./${hp}-hp-panel.svg`, `
+  Deno.writeTextFile(`./${names[i]}.svg`, `
     <svg width="${width}mm" height="${height}mm" xmlns="http://www.w3.org/2000/svg">
       <g stroke="black" fill="none">
         <rect x="0" y="0" width="${width}mm" height="${height}mm" />
@@ -32,9 +35,9 @@ hps.forEach((hp, i) => {
 Deno.writeTextFile('./index.html', `
   <title>Panels</title>
   <link rel="stylesheet" href="styles.css" />
-  ${hps.map(hp => `
+  ${hps.map((hp, i) => `
     <figure>
-      <img src="${hp}-hp-panel.svg" />
+      <img src="${names[i]}.svg" />
       <figcaption>
         ${hp} HP
       </ficaption>
