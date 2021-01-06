@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+
+figure {
+  margin: 1em;
+  float: left;
+  text-align: center;
+}
+
+figcaption {
+  margin: 0.5em 0;
+}

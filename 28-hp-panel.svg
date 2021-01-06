@@ -1,0 +1,34 @@
+
+    <svg width="141.9mm" height="128.5mm" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="black" fill="none">
+        <rect x="0" y="0" width="141.9mm" height="128.5mm" />
+        <line x1="0" x2="141.9mm" y1="9.25mm" y2="9.25mm" stroke-dasharray="0.5mm" />
+        <line x1="0" x2="141.9mm" y1="119.25mm" y2="119.25mm" stroke-dasharray="0.5mm" />
+        
+              <circle cx="7.5mm" cy="3mm" r="1.6mm" />
+              <line x1="7.5mm" x2="7.5mm" y1="1.4mm" y2="4.6mm" />
+              <line x1="5.9mm" x2="9.1mm" y1="3mm" y2="3mm" />
+            
+              <circle cx="7.5mm" cy="125.5mm" r="1.6mm" />
+              <line x1="7.5mm" x2="7.5mm" y1="123.9mm" y2="127.1mm" />
+              <line x1="5.9mm" x2="9.1mm" y1="125.5mm" y2="125.5mm" />
+            
+              <circle cx="68.46000000000001mm" cy="3mm" r="1.6mm" />
+              <line x1="68.46000000000001mm" x2="68.46000000000001mm" y1="1.4mm" y2="4.6mm" />
+              <line x1="66.86000000000001mm" x2="70.06mm" y1="3mm" y2="3mm" />
+            
+              <circle cx="68.46000000000001mm" cy="125.5mm" r="1.6mm" />
+              <line x1="68.46000000000001mm" x2="68.46000000000001mm" y1="123.9mm" y2="127.1mm" />
+              <line x1="66.86000000000001mm" x2="70.06mm" y1="125.5mm" y2="125.5mm" />
+            
+              <circle cx="129.42000000000002mm" cy="3mm" r="1.6mm" />
+              <line x1="129.42000000000002mm" x2="129.42000000000002mm" y1="1.4mm" y2="4.6mm" />
+              <line x1="127.82000000000002mm" x2="131.02mm" y1="3mm" y2="3mm" />
+            
+              <circle cx="129.42000000000002mm" cy="125.5mm" r="1.6mm" />
+              <line x1="129.42000000000002mm" x2="129.42000000000002mm" y1="123.9mm" y2="127.1mm" />
+              <line x1="127.82000000000002mm" x2="131.02mm" y1="125.5mm" y2="125.5mm" />
+            
+      </g>
+    </svg>
+  
